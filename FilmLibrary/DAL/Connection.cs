@@ -7,7 +7,7 @@ namespace DAL
     {
         public static MySqlConnection GetConnection()
         {
-            string connectionString = "";
+            string connectionString = "datasource=localhost;port=8080;database=Filmlibrary;username=root;password=;";
             return new MySqlConnection(connectionString);
         }
     }

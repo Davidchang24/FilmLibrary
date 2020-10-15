@@ -6,10 +6,10 @@ namespace FilmLibraryView
 {
     class Program
     {
-        private static void Main(string[] args)
+        public IFilmCollection filmCollection;
+        public static void Main(string[] args)
         {
-            IFilm inception = LogicFactory.LogicFactory.GetFilm("Inception", "cool chris nolan film", DateTime.Now);
-            Console.WriteLine(inception.filmName + " " + inception.filmInformation + " " + inception.filmReleaseDate);
+            ViewTest.Film filmpje = new ViewTest.Film();
         }
     }
 }

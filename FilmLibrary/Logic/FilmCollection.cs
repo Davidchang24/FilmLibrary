@@ -1,12 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using DataInterfaces;
+using DataFactory;
+using LogicInterfaces;
 
 namespace Logic
 {
-    class FilmCollection
+    public class FilmCollection : IFilmCollection
     {
-        private List<Film> _films;
+        private IFilmContext db;
+        private List<IFilm> films;
+
         public void AddFilm(Film film)
         {
 
@@ -17,10 +22,26 @@ namespace Logic
 
         }
 
-        public List<Film> GetFilms()
+        public FilmCollection(IFilmContext filmContext)
         {
-            return _films;
+            films = new List<IFilm>();
+            db = filmContext;
+            List<IFilmDto> filmDtos = db.GetFilms();
+            foreach (var film in filmDtos)
+            {
+                films.Add(new Film(DataFactory.DataFactory.GetFilmContext())
+                {
+                    filmId = film.filmId,
+                    filmName = film.filmName,
+                    filmInformation = film.filmInformation,
+                    filmReleaseDate = film.filmReleaseDate,
+                });
+            }
         }
 
+        public List<IFilm> GetFilms()
+        {
+            return films;
+        }
     }
 }

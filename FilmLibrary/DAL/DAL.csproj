@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataInterfaces\DataInterfaces.csproj" />
-    <ProjectReference Include="..\Logic\Logic.csproj" />
   </ItemGroup>
 
 </Project>

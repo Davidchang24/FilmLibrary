@@ -10,6 +10,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LogicInterfaces\LogicInterfaces.csproj" />
+    <ProjectReference Include="..\DataInterfaces\DataInterfaces.csproj" />
+    <ProjectReference Include="..\DataFactory\DataFactory.csproj" />
   </ItemGroup>
 
 </Project>

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Logic
 {
-    class AccountCollection
+    public class AccountCollection
     {
         public void RegisterAccount(Account account)
         {

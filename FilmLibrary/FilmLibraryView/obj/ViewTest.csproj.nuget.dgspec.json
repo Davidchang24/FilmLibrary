@@ -1,40 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\ViewTest.csproj": {}
+    "/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibraryView/ViewTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\ViewTest.csproj": {
+    "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DAL/DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\ViewTest.csproj",
-        "projectName": "ViewTest",
-        "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\ViewTest.csproj",
-        "packagesPath": "C:\\Users\\davidchang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\obj\\",
+        "projectUniqueName": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DAL/DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DAL/DAL.csproj",
+        "packagesPath": "/Users/davidchang/.nuget/packages/",
+        "outputPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DAL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\davidchang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/davidchang/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj": {
-                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj"
-              },
-              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
-                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
-              },
-              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj": {
-                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj"
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj"
               }
             }
           }
@@ -68,38 +60,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj": {
+    "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataFactory/DataFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj",
-        "projectName": "LogicFactory",
-        "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj",
-        "packagesPath": "C:\\Users\\davidchang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\obj\\",
+        "projectUniqueName": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataFactory/DataFactory.csproj",
+        "projectName": "DataFactory",
+        "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataFactory/DataFactory.csproj",
+        "packagesPath": "/Users/davidchang/.nuget/packages/",
+        "outputPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataFactory/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\davidchang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/davidchang/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
-                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DAL/DAL.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DAL/DAL.csproj"
               },
-              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj": {
-                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj"
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj"
               }
             }
           }
@@ -133,28 +123,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
+    "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj",
-        "projectName": "LogicInterfaces",
-        "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj",
-        "packagesPath": "C:\\Users\\davidchang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\obj\\",
+        "projectUniqueName": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj",
+        "projectName": "DataInterfaces",
+        "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj",
+        "packagesPath": "/Users/davidchang/.nuget/packages/",
+        "outputPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\davidchang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/davidchang/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -191,35 +179,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj": {
+    "/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibraryView/ViewTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj",
-        "projectName": "Logic",
-        "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj",
-        "packagesPath": "C:\\Users\\davidchang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\obj\\",
+        "projectUniqueName": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibraryView/ViewTest.csproj",
+        "projectName": "ViewTest",
+        "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibraryView/ViewTest.csproj",
+        "packagesPath": "/Users/davidchang/.nuget/packages/",
+        "outputPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibraryView/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\davidchang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/davidchang/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
-                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/Logic/Logic.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/Logic/Logic.csproj"
+              },
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicFactory/LogicFactory.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicFactory/LogicFactory.csproj"
+              },
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/LogicInterfaces.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/LogicInterfaces.csproj"
               }
             }
           }
@@ -253,7 +245,192 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/davidchang/Github/FilmLibrary/FilmLibrary/Logic/Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/Logic/Logic.csproj",
+        "projectName": "Logic",
+        "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/Logic/Logic.csproj",
+        "packagesPath": "/Users/davidchang/.nuget/packages/",
+        "outputPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/Logic/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/davidchang/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataFactory/DataFactory.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataFactory/DataFactory.csproj"
+              },
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj"
+              },
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/LogicInterfaces.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/LogicInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicFactory/LogicFactory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicFactory/LogicFactory.csproj",
+        "projectName": "LogicFactory",
+        "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicFactory/LogicFactory.csproj",
+        "packagesPath": "/Users/davidchang/.nuget/packages/",
+        "outputPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicFactory/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/davidchang/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/Logic/Logic.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/Logic/Logic.csproj"
+              },
+              "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/LogicInterfaces.csproj": {
+                "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/LogicInterfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/LogicInterfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/LogicInterfaces.csproj",
+        "projectName": "LogicInterfaces",
+        "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/LogicInterfaces.csproj",
+        "packagesPath": "/Users/davidchang/.nuget/packages/",
+        "outputPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/davidchang/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }
