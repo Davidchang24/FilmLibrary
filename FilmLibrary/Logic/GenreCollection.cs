@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Logic
 {
-    class GenreCollection
+    public class GenreCollection
     {
         private List<Genre> genres;
         public void AddGenre(Genre genre)

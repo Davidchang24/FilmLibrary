@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{9AAE8F63-0B22-4106-847C-08B24EC5BF20}|Default">
+  <MonoDevelop.Ide.ItemProperties.FilmLibrary PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="LogicInterfaces/IFilmCollection.cs" Line="1" Column="1" />
+      <File FileName="LogicInterfaces/IFilm.cs" />
+      <File FileName="Logic/FilmCollection.cs" />
+      <File FileName="FilmLibraryView/Program.cs" Line="12" Column="1" />
+      <File FileName="DAL/Context/FilmContext.cs" Line="18" Column="1" />
+      <File FileName="DataFactory/DataFactory.cs" />
+      <File FileName="Logic/GenreCollection.cs" />
+      <File FileName="Logic/AccountCollection.cs" />
+      <File FileName="Logic/Film.cs" />
+      <File FileName="DAL/Connection.cs" Line="10" Column="50" />
+      <File FileName="FilmLibraryView/Film.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FilmLibrary" expanded="True">
+            <Node name="DAL" expanded="True">
+              <Node name="Context" expanded="True" />
+              <Node name="Dto" expanded="True" />
+            </Node>
+            <Node name="DataFactory" expanded="True" />
+            <Node name="DataInterfaces" expanded="True" />
+            <Node name="Logic" expanded="True" />
+            <Node name="LogicFactory" expanded="True" />
+            <Node name="LogicInterfaces" expanded="True" />
+            <Node name="ViewTest" expanded="True">
+              <Node name="Dependencies" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.ViewTest PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

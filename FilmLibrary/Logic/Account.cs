@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Logic
 {
-    class Account
+    public class Account
     {
         private string accountEmail { get; set; }
         private string accountUsername { get; set; }

@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using DataInterfaces;
+﻿using DataInterfaces;
 
 namespace DAL.Dto
 {
     public class FilmDto : IFilmDto
     {
+        public int filmId { get; set; }
         public string filmName { get; set; }
         public string filmInformation { get; set; }
-        public DateTime filmReleaseDate { get; set; }
+        public string filmReleaseDate { get; set; }
     }
 }

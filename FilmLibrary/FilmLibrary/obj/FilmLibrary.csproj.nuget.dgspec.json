@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj": {}
+    "/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibrary/FilmLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj": {
+    "/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibrary/FilmLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj",
+        "projectUniqueName": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibrary/FilmLibrary.csproj",
         "projectName": "FilmLibrary",
-        "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj",
-        "packagesPath": "C:\\Users\\davidchang\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibrary\\obj\\",
+        "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibrary/FilmLibrary.csproj",
+        "packagesPath": "/Users/davidchang/.nuget/packages/",
+        "outputPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibrary/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\davidchang\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/davidchang/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -61,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.402/RuntimeIdentifierGraph.json"
         }
       }
     }

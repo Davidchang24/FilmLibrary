@@ -1,19 +1,20 @@
-﻿using System;
-using LogicInterfaces;
+﻿using LogicInterfaces;
+using DataFactory;
+using DataInterfaces;
 
 namespace Logic
 {
     public class Film : IFilm
     {
-        public string filmName { get; private set; }
-        public string filmInformation { get; private set; }
-        public DateTime filmReleaseDate { get; private set; }
+        private IFilmContext db;
+        public int filmId { get; set; }
+        public string filmName { get;  set; }
+        public string filmInformation { get;  set; }
+        public string filmReleaseDate { get;  set; }
 
-        public Film(string name, string information, DateTime releaseDate)
+        public Film(IFilmContext filmContext)
         {
-            filmName = name;
-            filmInformation = information;
-            filmReleaseDate = releaseDate;
+            db = filmContext;
         }
     }
 }

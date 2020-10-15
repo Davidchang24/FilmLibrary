@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Logic
 {
-    class Review
+    public class Review
     {
         private string reviewTitle { get; set; }    
         private string reviewComment { get; set; }
