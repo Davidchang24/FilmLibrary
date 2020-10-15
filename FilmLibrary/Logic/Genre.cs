@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Logic
 {
-    class Genre
+    public class Genre
     {
-        private string GenreTitle { get; set; }
-        private string GenreDesc { get; set; }
+        public string GenreTitle { get; set; }
+        public string GenreDesc { get; set; }
     }
 }

@@ -8,8 +8,8 @@ namespace FilmLibraryView
     {
         private static void Main(string[] args)
         {
-            IFilm inception = LogicFactory.FilmFactory.GetFilm("Inception", "cool chris nolan film");
-            Console.WriteLine(inception.filmName + " " + inception.filmInformation);
+            IFilm inception = LogicFactory.LogicFactory.GetFilm("Inception", "cool chris nolan film", DateTime.Now);
+            Console.WriteLine(inception.filmName + " " + inception.filmInformation + " " + inception.filmReleaseDate);
         }
     }
 }

@@ -7,12 +7,13 @@ namespace Logic
     {
         public string filmName { get; private set; }
         public string filmInformation { get; private set; }
-        private DateTime filmReleaseDate { get; set; }
+        public DateTime filmReleaseDate { get; private set; }
 
-        public Film(string name, string information)
+        public Film(string name, string information, DateTime releaseDate)
         {
             filmName = name;
             filmInformation = information;
+            filmReleaseDate = releaseDate;
         }
     }
 }

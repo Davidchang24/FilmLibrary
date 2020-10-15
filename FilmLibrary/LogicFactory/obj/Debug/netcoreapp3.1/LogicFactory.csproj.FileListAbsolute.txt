@@ -12,3 +12,16 @@ C:\Users\david\Documents\FilmLibrary\FilmLibrary\LogicFactory\obj\Debug\netcorea
 C:\Users\david\Documents\FilmLibrary\FilmLibrary\LogicFactory\obj\Debug\netcoreapp3.1\LogicFactory.csproj.CopyComplete
 C:\Users\david\Documents\FilmLibrary\FilmLibrary\LogicFactory\obj\Debug\netcoreapp3.1\LogicFactory.dll
 C:\Users\david\Documents\FilmLibrary\FilmLibrary\LogicFactory\obj\Debug\netcoreapp3.1\LogicFactory.pdb
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\bin\Debug\netcoreapp3.1\LogicFactory.deps.json
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\bin\Debug\netcoreapp3.1\LogicFactory.dll
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\bin\Debug\netcoreapp3.1\LogicFactory.pdb
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\bin\Debug\netcoreapp3.1\Logic.dll
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\bin\Debug\netcoreapp3.1\LogicInterfaces.dll
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\bin\Debug\netcoreapp3.1\LogicInterfaces.pdb
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\bin\Debug\netcoreapp3.1\Logic.pdb
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\obj\Debug\netcoreapp3.1\LogicFactory.csprojAssemblyReference.cache
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\obj\Debug\netcoreapp3.1\LogicFactory.AssemblyInfoInputs.cache
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\obj\Debug\netcoreapp3.1\LogicFactory.AssemblyInfo.cs
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\obj\Debug\netcoreapp3.1\LogicFactory.csproj.CopyComplete
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\obj\Debug\netcoreapp3.1\LogicFactory.dll
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\LogicFactory\obj\Debug\netcoreapp3.1\LogicFactory.pdb

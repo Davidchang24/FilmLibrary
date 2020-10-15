@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj": {}
+    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj": {
+    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj",
         "projectName": "FilmLibrary",
-        "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\FilmLibrary\\obj\\",
+        "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibrary\\FilmLibrary.csproj",
+        "packagesPath": "C:\\Users\\davidchang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davidchang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +61,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

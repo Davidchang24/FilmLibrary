@@ -1,0 +1,5 @@
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\bin\Debug\netcoreapp3.1\DataInterfaces.deps.json
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\bin\Debug\netcoreapp3.1\DataInterfaces.dll
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\obj\Debug\netcoreapp3.1\DataInterfaces.csprojAssemblyReference.cache
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\obj\Debug\netcoreapp3.1\DataInterfaces.AssemblyInfoInputs.cache
+C:\Users\davidchang\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\obj\Debug\netcoreapp3.1\DataInterfaces.AssemblyInfo.cs

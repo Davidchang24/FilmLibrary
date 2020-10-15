@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\View.csproj": {}
+    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\View.csproj": {}
   },
   "projects": {
-    "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\View.csproj": {
+    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\View.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\View.csproj",
+        "projectUniqueName": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\View.csproj",
         "projectName": "View",
-        "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\View.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\obj\\",
+        "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\View.csproj",
+        "packagesPath": "C:\\Users\\davidchang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\FilmLibraryView\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davidchang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,14 +27,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj": {
-                "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj"
+              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj": {
+                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj"
               },
-              "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
-                "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
+              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
+                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
               },
-              "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj": {
-                "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj"
+              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj"
               }
             }
           }
@@ -62,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj": {
+    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj",
+        "projectUniqueName": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj",
         "projectName": "LogicFactory",
-        "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicFactory\\obj\\",
+        "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj",
+        "packagesPath": "C:\\Users\\davidchang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davidchang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,11 +89,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
-                "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
+              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
+                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
               },
-              "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj": {
-                "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj"
+              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj": {
+                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj"
               }
             }
           }
@@ -121,21 +121,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
+    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj",
+        "projectUniqueName": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj",
         "projectName": "LogicInterfaces",
-        "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\obj\\",
+        "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj",
+        "packagesPath": "C:\\Users\\davidchang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davidchang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -173,21 +173,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj": {
+    "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj",
+        "projectUniqueName": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj",
         "projectName": "Logic",
-        "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj",
-        "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\Logic\\obj\\",
+        "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj",
+        "packagesPath": "C:\\Users\\davidchang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\davidchang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -200,8 +200,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
-                "projectPath": "C:\\Users\\david\\Documents\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
+              "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
+                "projectPath": "C:\\Users\\davidchang\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
               }
             }
           }
@@ -229,7 +229,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

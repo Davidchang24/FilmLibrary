@@ -8,6 +8,6 @@ namespace LogicInterfaces
     {
         string filmName { get; }
         string filmInformation { get; }
-
+        DateTime filmReleaseDate { get; }
     }
 }
