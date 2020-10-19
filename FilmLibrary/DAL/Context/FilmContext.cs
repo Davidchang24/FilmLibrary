@@ -26,9 +26,8 @@ namespace DAL.Context
                         filmId = Convert.ToInt32(reader["filmId"]),
                         filmName = reader["filmName"].ToString(),
                         filmInformation = reader["filmInformation"].ToString(),
-                        filmReleaseDate = Convert.ToDateTime(reader["filmReleaseDate"]).ToString("dd-mm-yyyy")
 
-                    });
+                    }); ;
                 }
             }
             return films;
