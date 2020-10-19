@@ -10,9 +10,16 @@ namespace DataFactory
         {
             return new FilmContext();
         }
+
         public static IFilmDto GetFilm()
         {
             return new FilmDto();
         }
+
+        public static IAccountDto GetAccountDto()
+        {
+            return new AccountDto();
+        }
+
     }
 }

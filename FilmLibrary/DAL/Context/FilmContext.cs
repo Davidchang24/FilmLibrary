@@ -1,9 +1,8 @@
-﻿    using System;
-    using System.Collections.Generic;
-    using System.Text;
-    using DataInterfaces;
-    using DAL.Dto;
-    using MySql.Data.MySqlClient;
+﻿using System;
+using System.Collections.Generic;
+using DataInterfaces;
+using DAL.Dto;
+using MySql.Data.MySqlClient;
 
 namespace DAL.Context
 {
@@ -25,7 +24,7 @@ namespace DAL.Context
                     {
                         filmId = Convert.ToInt32(reader["filmId"]),
                         filmName = reader["filmName"].ToString(),
-                        filmInformation = reader["filmInformation"].ToString(),
+                        filmInformation = reader["filmInformation"].ToString()
 
                     }); ;
                 }
