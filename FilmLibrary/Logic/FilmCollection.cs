@@ -12,12 +12,17 @@ namespace Logic
         private IFilmContext db;
         private List<IFilm> films;
 
-        public void AddFilm(Film film)
+        public void AddFilm(IFilm film)
         {
+            IFilmDto filmDto = DataFactory.DataFactory.GetFilm();
+            filmDto.filmId = film.filmId;
+            filmDto.filmName = film.filmName;
+            filmDto.filmInformation = film.filmInformation;
+            filmDto.filmReleaseDate = film.filmReleaseDate;
 
+            db.AddFilm(filmDto);
         }
-
-        public void RemovieFilm(Film film)
+        public void RemovieFilm(IFilmCollection film)
         {
 
         }

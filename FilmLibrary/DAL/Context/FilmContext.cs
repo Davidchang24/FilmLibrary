@@ -31,5 +31,45 @@ namespace DAL.Context
             }
             return films;
         }
+
+        public void AddFilm(IFilmDto filmDto)
+        {
+            string command = "INSERT INTO `film` (`filmId`, `filmName`, `filmInformation`, `filmReleaseDate`) VALUES ({0}, '{1}' ,{2}', '{3}';";
+
+            using (MySqlConnection connect = Connection.GetConnection())
+            {
+                connect.Open();
+                MySqlCommand cmd = new MySqlCommand(string.Format(command,filmDto.filmId, filmDto.filmName,filmDto.filmInformation,
+                                                                  filmDto.filmReleaseDate), connect);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public void DeleteFilm(int filmId)
+        {
+            string command = "DELETE FROM film WHERE filmId = {0};";
+
+            using(MySqlConnection connect = Connection.GetConnection())
+            {
+                connect.Open();
+                MySqlCommand cmd = new MySqlCommand(string.Format(command, filmId), connect);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public void EditFilm(string filmName, string filmInformation, string filmReleaseDate, int filmId)
+        {
+            string command = "UPDATE film SET filmName='{0}', filmInformation='{1}', filmReleaseDate='{2}' WHERE filmId='{3}';";
+            
+            using (MySqlConnection connect = Connection.GetConnection())
+            {
+                connect.Open();
+                MySqlCommand cmd = new MySqlCommand(string.Format(command, filmName, filmInformation, filmReleaseDate, filmId), connect);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
     }
 }

@@ -5,9 +5,9 @@ namespace DataInterfaces
 {
     public interface IFilmDto
     {
-        int filmId { get; }
-        string filmName { get; }
-        string filmInformation { get; }
-        string filmReleaseDate { get; }
+        int filmId { get; set; }
+        string filmName { get; set; }
+        string filmInformation { get; set; }
+        string filmReleaseDate { get; set; }
     }
 }
