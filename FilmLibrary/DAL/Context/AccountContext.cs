@@ -6,7 +6,7 @@ using MySql.Data.MySqlClient;
 
 namespace DAL.Context
 {
-    public class AccountContext
+    public class AccountContext : IAccountContext
     {
         public List<IAccountDto> GetAccounts()
         {

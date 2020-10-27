@@ -12,21 +12,6 @@ namespace Logic
         private IFilmContext db;
         private List<IFilm> films;
 
-        public void AddFilm(IFilm film)
-        {
-            IFilmDto filmDto = DataFactory.DataFactory.GetFilm();
-            filmDto.filmId = film.filmId;
-            filmDto.filmName = film.filmName;
-            filmDto.filmInformation = film.filmInformation;
-            filmDto.filmReleaseDate = film.filmReleaseDate;
-
-            db.AddFilm(filmDto);
-        }
-        public void RemovieFilm(IFilmCollection film)
-        {
-
-        }
-
         public FilmCollection(IFilmContext filmContext)
         {
             films = new List<IFilm>();
@@ -34,14 +19,35 @@ namespace Logic
             List<IFilmDto> filmDtos = db.GetFilms();
             foreach (var film in filmDtos)
             {
-                films.Add(new Film(DataFactory.DataFactory.GetFilmContext())
+                films.Add(new Film(DataFactory.Factory.GetFilmContext())
                 {
                     filmId = film.filmId,
                     filmName = film.filmName,
-                    filmInformation = film.filmInformation,
-                    filmReleaseDate = film.filmReleaseDate,
+                    filmInformation = film.FilmInformation,
+                    filmReleaseDate = film.FilmReleaseDate,
                 });
             }
+        }
+
+        public void AddFilm(IFilm film)
+        {
+            IFilmDto filmDto = DataFactory.Factory.GetFilm();
+            filmDto.filmId = film.filmId;
+            filmDto.filmName = film.filmName;
+            filmDto.FilmInformation = film.filmInformation;
+            filmDto.FilmReleaseDate = film.filmReleaseDate;
+
+            db.AddFilm(filmDto);
+        }
+        // TODO Should this function be in FilmCollection or just in Film
+        public void RemovieFilm()
+        {
+
+        }
+        // TODO Should this function be in FilmCollection or just in Film
+        public void EditMovie()
+        {
+
         }
 
         public List<IFilm> GetFilms()

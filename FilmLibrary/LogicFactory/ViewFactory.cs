@@ -8,12 +8,12 @@ namespace LogicFactory
     {
         public static IFilm GetFilm()
         {
-            return new Film(DataFactory.DataFactory.GetFilmContext());
+            return new Film(DataFactory.Factory.GetFilmContext());
         }
 
         public static IFilmCollection GetFilmCollection()
         {
-            return new FilmCollection(DataFactory.DataFactory.GetFilmContext());
+            return new FilmCollection(DataFactory.Factory.GetFilmContext());
         }
     } 
 }

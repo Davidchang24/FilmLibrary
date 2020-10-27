@@ -4,7 +4,7 @@ using DAL.Context;
 
 namespace DataFactory
 {
-    public static class DataFactory
+    public static class Factory
     {
         public static IFilmContext GetFilmContext()
         {
@@ -21,5 +21,19 @@ namespace DataFactory
             return new AccountDto();
         }
 
+        public static IAccountContext GetAccountContext()
+        {
+            return new AccountContext();
+        }
+
+        public static IActorDto GetActor()
+        {
+            return new ActorDto();
+        }
+
+        public static IActorContext GetActorContext()
+        {
+            return new ActorContext();
+        }
     }
 }

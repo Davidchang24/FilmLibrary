@@ -22,11 +22,11 @@ namespace DAL.Context
                 {
                     films.Add(new FilmDto()
                     {
-                        filmId = Convert.ToInt32(reader["filmId"]),
-                        filmName = reader["filmName"].ToString(),
-                        filmInformation = reader["filmInformation"].ToString()
+                        FilmId = Convert.ToInt32(reader["filmId"]),
+                        FilmName = reader["filmName"].ToString(),
+                        FilmInformation = reader["filmInformation"].ToString()
 
-                    }); ;
+                    }); 
                 }
             }
             return films;
@@ -34,13 +34,13 @@ namespace DAL.Context
 
         public void AddFilm(IFilmDto filmDto)
         {
-            string command = "INSERT INTO `film` (`filmId`, `filmName`, `filmInformation`, `filmReleaseDate`) VALUES ({0}, '{1}' ,{2}', '{3}';";
+            string command = "INSERT INTO `film` (`filmId`, `filmName`, `filmInformation`, `filmReleaseDate`) VALUES ({0}, '{1}' ,{2}', '{3}');";
 
             using (MySqlConnection connect = Connection.GetConnection())
             {
                 connect.Open();
-                MySqlCommand cmd = new MySqlCommand(string.Format(command,filmDto.filmId, filmDto.filmName,filmDto.filmInformation,
-                                                                  filmDto.filmReleaseDate), connect);
+                MySqlCommand cmd = new MySqlCommand(string.Format(command,filmDto.FilmId, filmDto.FilmName,filmDto.FilmInformation,
+                                                                  filmDto.FilmReleaseDate), connect);
 
                 cmd.ExecuteNonQuery();
             }
