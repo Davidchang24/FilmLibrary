@@ -5600,24 +5600,26 @@
     ]
   },
   "packageFolders": {
-    "/Users/davidchang/.nuget/packages/": {}
+    "C:\\Users\\david\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj",
+      "projectUniqueName": "C:\\Users\\david\\Documents\\GitHub\\FilmLibrary\\FilmLibrary\\DataInterfaces\\DataInterfaces.csproj",
       "projectName": "DataInterfaces",
-      "projectPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj",
-      "packagesPath": "/Users/davidchang/.nuget/packages/",
-      "outputPath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/obj/",
+      "projectPath": "C:\\Users\\david\\Documents\\GitHub\\FilmLibrary\\FilmLibrary\\DataInterfaces\\DataInterfaces.csproj",
+      "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\david\\Documents\\GitHub\\FilmLibrary\\FilmLibrary\\DataInterfaces\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/davidchang/.config/NuGet/NuGet.Config"
+        "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -5654,7 +5656,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+>>>>>>> 6fd6c70993e2612ca6435fd4bc1fbe3d07ba703f
       }
     }
   }
