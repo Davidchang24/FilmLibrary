@@ -9,6 +9,6 @@ namespace LogicInterfaces
         int filmId { get; }
         string filmName { get; }
         string filmInformation { get; }
-        string filmReleaseDate { get; }
+        string  filmReleaseDate { get; }
     }
 }

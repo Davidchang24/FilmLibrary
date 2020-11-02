@@ -12,7 +12,7 @@ namespace ViewTest
             filmCollection = LogicFactory.ViewFactory.GetFilmCollection();
             foreach (var films in filmCollection.GetFilms())
             {
-                Console.WriteLine(films.filmName);
+                Console.WriteLine(films.filmName + ": " + films.filmInformation + " Released in:" + films.filmReleaseDate + "\n") ;
             }
         }
     }

@@ -8,7 +8,7 @@ namespace DataInterfaces
     {
         List<IFilmDto> GetFilms();
         void AddFilm(IFilmDto film);
-        void DeleteFilm(int filmId);
+        void RemoveFilm(int filmId);
         void EditFilm(string filmName, string filmInformation, string filmReleaseDate, int filmId);
     }
 }

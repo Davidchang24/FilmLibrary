@@ -5,7 +5,7 @@ using DAL.Dto;
 using MySql.Data.MySqlClient;
 
 namespace DAL.Context
-{
+{   
     public class FilmContext : IFilmContext
     {
         public List<IFilmDto> GetFilms()
@@ -32,21 +32,21 @@ namespace DAL.Context
             return films;
         }
 
-        public void AddFilm(IFilmDto filmDto)
+        public void AddFilm(IFilmDto film)
         {
             string command = "INSERT INTO `film` (`filmId`, `filmName`, `filmInformation`, `filmReleaseDate`) VALUES ({0}, '{1}' ,{2}', '{3}');";
 
             using (MySqlConnection connect = Connection.GetConnection())
             {
                 connect.Open();
-                MySqlCommand cmd = new MySqlCommand(string.Format(command,filmDto.FilmId, filmDto.FilmName,filmDto.FilmInformation,
-                                                                  filmDto.FilmReleaseDate), connect);
+                MySqlCommand cmd = new MySqlCommand(string.Format(command,film.FilmId, film.FilmName,film.FilmInformation,
+                                                                  film.FilmReleaseDate), connect);
 
                 cmd.ExecuteNonQuery();
             }
         }
 
-        public void DeleteFilm(int filmId)
+        public void RemoveFilm(int filmId)
         {
             string command = "DELETE FROM film WHERE filmId = {0};";
 

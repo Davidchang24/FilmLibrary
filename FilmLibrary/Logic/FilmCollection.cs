@@ -21,8 +21,8 @@ namespace Logic
             {
                 films.Add(new Film(DataFactory.Factory.GetFilmContext())
                 {
-                    filmId = film.filmId,
-                    filmName = film.filmName,
+                    filmId = film.FilmId,
+                    filmName = film.FilmName,
                     filmInformation = film.FilmInformation,
                     filmReleaseDate = film.FilmReleaseDate,
                 });
@@ -32,8 +32,8 @@ namespace Logic
         public void AddFilm(IFilm film)
         {
             IFilmDto filmDto = DataFactory.Factory.GetFilm();
-            filmDto.filmId = film.filmId;
-            filmDto.filmName = film.filmName;
+            filmDto.FilmId = film.filmId;
+            filmDto.FilmName = film.filmName;
             filmDto.FilmInformation = film.filmInformation;
             filmDto.FilmReleaseDate = film.filmReleaseDate;
 
