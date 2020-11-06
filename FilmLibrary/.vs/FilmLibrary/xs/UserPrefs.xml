@@ -1,14 +1,23 @@
 ﻿<Properties StartupConfiguration="{9AAE8F63-0B22-4106-847C-08B24EC5BF20}|Default">
   <MonoDevelop.Ide.ItemProperties.ViewFilmLibrary PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DAL/Context/FilmContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="DAL/Context/ActorContext.cs">
     <Files>
-      <File FileName="DAL/Dto/AccountDto.cs" Line="11" Column="49" />
-      <File FileName="DAL/Context/FilmContext.cs" Line="25" Column="68" />
+      <File FileName="DAL/Context/ActorContext.cs" Line="18" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="FilmLibrary" expanded="True" />
+          <Node name="FilmLibrary" expanded="True">
+            <Node name="DAL" expanded="True">
+              <Node name="Context" expanded="True">
+                <Node name="ActorContext.cs" selected="True" />
+              </Node>
+            </Node>
+            <Node name="DataFactory" expanded="True" />
+            <Node name="Logic" expanded="True" />
+            <Node name="LogicFactory" expanded="True" />
+            <Node name="LogicInterfaces" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
@@ -16,9 +25,7 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/davidchang/Github/FilmLibrary/FilmLibrary/FilmLibraryView/Film.cs" relfile="FilmLibraryView/Film.cs" line="16" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.ViewTest PreferredExecutionTarget="MonoDevelop.Default" />

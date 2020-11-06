@@ -8,7 +8,7 @@ namespace DataInterfaces
     {
         List<IActorDto> GetActors();
         void AddActor(IActorDto actorDto);
-        void DeleteActor(int ActorId);
+        void RemoveActor(int ActorId);
         void EditActor(string actorName, string actorInfo, int actorId);
     }
 }

@@ -9,7 +9,6 @@ namespace Logic
 {
     public class AccountCollection : IAccountCollection
     {
-        private IAccountContext db;
         private List<IAccount> accounts;
 
         public void RegisterAccount(IAccount account)

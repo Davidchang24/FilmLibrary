@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Text;
 using DAL.Dto;
 
-namespace DAL.Context
+namespace DAL.Context   
 {
     public class ActorContext : IActorContext
     {
@@ -27,7 +27,7 @@ namespace DAL.Context
                     {
                         ActorId = Convert.ToInt32(reader["actorId"]),
                         ActorName = reader["actorName"].ToString(),
-                        ActorInfo = reader["ActorInfo"].ToString()
+                        ActorInfo = reader["actorInfo"].ToString()
                     }) ;
                 }
             }
@@ -44,7 +44,7 @@ namespace DAL.Context
                 cmd.ExecuteNonQuery();
             }
         }
-        public void DeleteActor(int ActorId)
+        public void RemoveActor(int ActorId)
         {
             string command = "DELETE FROM actor WHERE actorId = {0};"; 
 
