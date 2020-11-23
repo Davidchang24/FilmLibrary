@@ -6,13 +6,12 @@ namespace ViewTest
 {
     public class Film
     {
-        private IFilmCollection filmCollection;
         public Film()
         { 
-            filmCollection = LogicFactory.ViewFactory.GetFilmCollection();
+            IFilmCollection filmCollection = LogicFactory.LogicFactory.GetFilmCollection();
             foreach (var films in filmCollection.GetFilms())
             {
-                Console.WriteLine(films.filmName + ": " + films.filmInformation + " Released in:" + films.filmReleaseDate) ;
+                Console.WriteLine(films.FilmName + ": " + films.FilmInformation + " Released in:" + films.FilmReleaseDate);
             }
         }
     }

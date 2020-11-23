@@ -7,7 +7,7 @@ namespace LogicInterfaces
     public interface IAccountCollection
     {
         void RegisterAccount(IAccount account);
-        List<IAccount> GetAccounts();
+        IReadOnlyList<IAccount> GetAccounts();
 
     }
 }

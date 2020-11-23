@@ -15,7 +15,7 @@ namespace Logic
         {
 
         }
-        public List<IAccount> GetAccounts()
+        public IReadOnlyList<IAccount> GetAccounts()
         {
             return accounts;
         }

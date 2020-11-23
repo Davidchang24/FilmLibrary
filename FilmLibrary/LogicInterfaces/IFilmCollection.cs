@@ -5,9 +5,9 @@ namespace LogicInterfaces
 {
     public interface IFilmCollection
     {
-        List<IFilm> GetFilms();
+        IReadOnlyList<IFilm> GetFilms();
         void AddFilm(IFilm film);
-        void RemovieFilm();
-        void EditMovie();
+        void RemovieFilm(int filmId);
+        void EditFilm();
     }
 }

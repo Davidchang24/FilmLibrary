@@ -24,7 +24,7 @@ namespace DAL.Context
                     genres.Add(new GenreDto()
                     {
                         GenreId = Convert.ToInt32(reader["genreId"]),
-                        GenreName = reader["genreName"].ToString(),
+                        GenreTitle = reader["genreName"].ToString(),
                         GenreDesc = reader["genreDesc"].ToString()
                     });
                 }

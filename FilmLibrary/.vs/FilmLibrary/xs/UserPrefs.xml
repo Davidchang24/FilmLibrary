@@ -1,22 +1,28 @@
 ﻿<Properties StartupConfiguration="{9AAE8F63-0B22-4106-847C-08B24EC5BF20}|Default">
   <MonoDevelop.Ide.ItemProperties.ViewFilmLibrary PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="DAL/Context/ActorContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Logic/Film.cs">
     <Files>
-      <File FileName="DAL/Context/ActorContext.cs" Line="18" Column="14" />
+      <File FileName="FilmLibraryView/Program.cs" Line="19" Column="38" />
+      <File FileName="FilmLibraryView/Film.cs" Line="14" Column="124" />
+      <File FileName="DAL/Context/FilmContext.cs" Line="15" Column="73" />
+      <File FileName="Logic/FilmCollection.cs" Line="55" Column="1" />
+      <File FileName="Logic/Film.cs" Line="26" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FilmLibrary" expanded="True">
             <Node name="DAL" expanded="True">
-              <Node name="Context" expanded="True">
-                <Node name="ActorContext.cs" selected="True" />
-              </Node>
+              <Node name="Context" expanded="True" />
             </Node>
             <Node name="DataFactory" expanded="True" />
-            <Node name="Logic" expanded="True" />
+            <Node name="DataInterfaces" expanded="True" />
+            <Node name="Logic" expanded="True">
+              <Node name="Film.cs" selected="True" />
+            </Node>
             <Node name="LogicFactory" expanded="True" />
             <Node name="LogicInterfaces" expanded="True" />
+            <Node name="ViewTest" expanded="True" />
           </Node>
         </State>
       </Pad>

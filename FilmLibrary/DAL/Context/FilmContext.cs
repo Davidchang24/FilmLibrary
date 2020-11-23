@@ -25,7 +25,6 @@ namespace DAL.Context
                         FilmId = Convert.ToInt32(reader["filmId"]),
                         FilmName = reader["filmName"].ToString(),
                         FilmInformation = reader["filmInformation"].ToString()
-
                     }); 
                 }
             }
@@ -34,12 +33,12 @@ namespace DAL.Context
 
         public void AddFilm(IFilmDto film)
         {
-            string command = "INSERT INTO `film` (`filmId`, `filmName`, `filmInformation`, `filmReleaseDate`) VALUES ({0}, '{1}' ,{2}', '{3}');";
+            string command = "INSERT INTO `film` (`filmId`, `filmName`, `filmInformation`, `filmReleaseDate`) VALUES ({0}, '{1}' ,'{2}', '{3}');";
 
             using (MySqlConnection connect = Connection.GetConnection())
             {
                 connect.Open();
-                MySqlCommand cmd = new MySqlCommand(string.Format(command,film.FilmId, film.FilmName,film.FilmInformation,
+                MySqlCommand cmd = new MySqlCommand(string.Format(command, film.FilmId, film.FilmName,film.FilmInformation,
                                                                   film.FilmReleaseDate), connect);
 
                 cmd.ExecuteNonQuery();

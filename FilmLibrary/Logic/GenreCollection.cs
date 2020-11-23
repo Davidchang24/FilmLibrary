@@ -1,21 +1,48 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using DataInterfaces;
+using DataFactory;
+using LogicInterfaces;
 
 namespace Logic
 {
-    public class GenreCollection
+    public class GenreCollection : IGenreCollection
     {
-        private List<Genre> genres;
-        public void AddGenre(Genre genre)
-        {
+        private List<IGenre> genres;
 
-        }
-        public void RenoveGenre(Genre genre)
+        public GenreCollection()
         {
-
+            IGenreContext db = DataFactory.DataFactory.GetGenreContext();
+            genres = new List<IGenre>();
+            List<IGenreDto> genreDtos = db.GetGenres();
+            foreach (var genre in genreDtos)
+            {
+                genres.Add(new Genre()
+                {
+                    GenreTitle = genre.GenreTitle,
+                    GenreDesc = genre.GenreDesc,
+                });
+            }
         }
-        public List<Genre> GetGenres()
+
+        public void AddGenre(IGenre genre)
+        {
+            IGenreContext db = DataFactory.DataFactory.GetGenreContext();
+            IGenreDto genreDto = DataFactory.DataFactory.GetGenreDto();
+            genreDto.GenreId = genre.GenreId;
+            genreDto.GenreTitle = genre.GenreTitle;
+            genreDto.GenreDesc = genre.GenreDesc;
+
+            db.AddGenre(genreDto);
+        }
+        public void RenoveGenre(int genreId)
+        {
+            IGenreContext db = DataFactory.DataFactory.GetGenreContext();
+
+            db.RemoveGenre(genreId);
+        }
+        public IReadOnlyList<IGenre> GetGenres()
         {
             return genres;
         }

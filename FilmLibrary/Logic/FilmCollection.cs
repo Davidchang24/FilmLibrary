@@ -8,49 +8,52 @@ using LogicInterfaces;
 namespace Logic
 {
     public class FilmCollection : IFilmCollection
-    {
-        private IFilmContext db;
+    { 
         private List<IFilm> films;
 
-        public FilmCollection(IFilmContext filmContext)
+        public FilmCollection()
         {
+            IFilmContext db = DataFactory.DataFactory.GetFilmContext();
             films = new List<IFilm>();
-            db = filmContext;
             List<IFilmDto> filmDtos = db.GetFilms();
             foreach (var film in filmDtos)
             {
-                films.Add(new Film(DataFactory.Factory.GetFilmContext())
+                films.Add(new Film()
                 {
-                    filmId = film.FilmId,
-                    filmName = film.FilmName,
-                    filmInformation = film.FilmInformation,
-                    filmReleaseDate = film.FilmReleaseDate,
+                    FilmId = film.FilmId,
+                    FilmName = film.FilmName,
+                    FilmInformation = film.FilmInformation,
+                    FilmReleaseDate = film.FilmReleaseDate,
                 });
             }
         }
 
         public void AddFilm(IFilm film)
         {
-            IFilmDto filmDto = DataFactory.Factory.GetFilm();
-            filmDto.FilmId = film.filmId;
-            filmDto.FilmName = film.filmName;
-            filmDto.FilmInformation = film.filmInformation;
-            filmDto.FilmReleaseDate = film.filmReleaseDate;
+            IFilmContext db = DataFactory.DataFactory.GetFilmContext();
+            IFilmDto filmDto = DataFactory.DataFactory.GetFilmDto();
+
+            filmDto.FilmId = film.FilmId;
+            filmDto.FilmName = film.FilmName;
+            filmDto.FilmInformation = film.FilmInformation;
+            filmDto.FilmReleaseDate = film.FilmReleaseDate;
 
             db.AddFilm(filmDto);
         }
+
+        public void RemovieFilm(int filmId)
+        {
+            IFilmContext db = DataFactory.DataFactory.GetFilmContext();
+            db.RemoveFilm(filmId);
+        }
+
         // TODO Should this function be in FilmCollection or just in Film
-        public void RemovieFilm()
+        public void EditFilm()
         {
 
         }
-        // TODO Should this function be in FilmCollection or just in Film
-        public void EditMovie()
-        {
 
-        }
-
-        public List<IFilm> GetFilms()
+        public IReadOnlyList<IFilm> GetFilms()
         {
             return films;
         }

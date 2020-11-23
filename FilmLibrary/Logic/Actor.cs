@@ -9,6 +9,6 @@ namespace Logic
     {
         public int ActorId { get; set; }
         public string ActorName { get; set; }
-        public string ActorInfo { get; set; }
+        public string ActorInfo { get; set; }       
     }
 }

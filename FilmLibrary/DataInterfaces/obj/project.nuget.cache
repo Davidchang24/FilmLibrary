@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HG0cP7apYH8eVgpUec34TSTdNudeNCn5x7wo9a2USmUHSKRBq+Xwv4b+aRZXLeh5XkKxTyacqQi+wVMJwCf0oA==",
+  "dgSpecHash": "+phA/nSCnt0dsd/9VOrw1fMsYzgSlFUI+FZXM3nOImzrSqsmf30o+9KYgKqo82qU6ltCp/uh1ylnR3gKFr323A==",
   "success": true,
   "projectFilePath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/DataInterfaces.csproj",
   "expectedPackageFiles": [
@@ -93,12 +93,5 @@
     "/Users/davidchang/.nuget/packages/system.xml.xpath/4.0.1/system.xml.xpath.4.0.1.nupkg.sha512",
     "/Users/davidchang/.nuget/packages/system.xml.xpath.xmldocument/4.0.1/system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -4,16 +4,16 @@ using System;
 
 namespace LogicFactory
 {
-    public static class ViewFactory
+    public static class LogicFactory
     {
         public static IFilm GetFilm()
         {
-            return new Film(DataFactory.Factory.GetFilmContext());
+            return new Film();
         }
 
         public static IFilmCollection GetFilmCollection()
         {
-            return new FilmCollection(DataFactory.Factory.GetFilmContext());
+            return new FilmCollection();
         }
     } 
 }

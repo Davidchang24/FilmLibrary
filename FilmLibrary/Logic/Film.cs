@@ -1,20 +1,25 @@
 ﻿using LogicInterfaces;
 using DataFactory;
+using System.Collections.Generic;
 using DataInterfaces;
 
 namespace Logic
 {
     public class Film : IFilm
     {
-        private IFilmContext db;
-        public int filmId { get; set; }
-        public string filmName { get;  set; }
-        public string filmInformation { get;  set; }
-        public string filmReleaseDate { get;  set; }
+        public int FilmId { get; set; }
+        public string FilmName { get;  set; }
+        public string FilmInformation { get;  set; }
+        public string FilmReleaseDate { get; set; }
+        public IReadOnlyCollection<string> itest { get { return test.AsReadOnly(); } }
+        public List<string> test { get; private set; } = new List<string>();
+    }
 
-        public Film(IFilmContext filmContext)
+    public class Test
+    {
+        public void Test1()
         {
-            db = filmContext;
+            Film film = new Film();
         }
     }
 }

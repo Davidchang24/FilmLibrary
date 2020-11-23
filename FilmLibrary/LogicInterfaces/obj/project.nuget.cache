@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "npJ/56LBjfp6vVhT+VEO4SXQN+01e/axGJknMWdgwVbo7t7PEmCZ55+pnHPf8N9oXykZg8CHdMhSSMGBoXyAlA==",
+  "dgSpecHash": "CUXD9cm+odVKgv/iyacxv7oj2KBUjNM4LHXyUFzp5Y3cB5Q6aNLCSsUjch6H0Vg2CMxkpncQr0+B2mkhvDz77Q==",
   "success": true,
   "projectFilePath": "/Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/LogicInterfaces.csproj",
   "expectedPackageFiles": [
@@ -93,12 +93,5 @@
     "/Users/davidchang/.nuget/packages/system.xml.xpath/4.0.1/system.xml.xpath.4.0.1.nupkg.sha512",
     "/Users/davidchang/.nuget/packages/system.xml.xpath.xmldocument/4.0.1/system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file /Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

@@ -4,14 +4,14 @@ using DAL.Context;
 
 namespace DataFactory
 {
-    public static class Factory
+    public static class DataFactory
     {
         public static IFilmContext GetFilmContext()
         {
             return new FilmContext();
         }
 
-        public static IFilmDto GetFilm()
+        public static IFilmDto GetFilmDto()
         {
             return new FilmDto();
         }
@@ -26,7 +26,7 @@ namespace DataFactory
             return new AccountContext();
         }
 
-        public static IActorDto GetActor()
+        public static IActorDto GetActorDto()
         {
             return new ActorDto();
         }
@@ -35,5 +35,24 @@ namespace DataFactory
         {
             return new ActorContext();
         }
+        public static IGenreContext GetGenreContext()
+        {
+            return new GenreContext();
+        }
+
+        public static IGenreDto GetGenreDto()
+        {
+            return new GenreDto();
+        }
+
+        public static IReviewContext GetReviewContext()
+        {
+            return new ReviewContext();
+        }
+
+        public static IReviewDto GetReviewDto()
+        {
+            return new ReviewDto();
+        } 
     }
 }

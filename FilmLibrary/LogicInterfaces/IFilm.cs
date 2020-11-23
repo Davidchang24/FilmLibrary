@@ -6,9 +6,9 @@ namespace LogicInterfaces
 {
     public interface IFilm
     {
-        int filmId { get; }
-        string filmName { get; }
-        string filmInformation { get; }
-        string  filmReleaseDate { get; }
+        int FilmId { get; set; }
+        string FilmName { get; set; }
+        string FilmInformation { get; set; }
+        string  FilmReleaseDate { get; set; }
     }
 }
