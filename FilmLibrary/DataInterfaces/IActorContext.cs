@@ -6,8 +6,8 @@ namespace DataInterfaces
 {
     public interface IActorContext
     {
-        List<IActorDto> GetActors();
-        void AddActor(IActorDto actorDto);
+        List<ActorDto> GetActors();
+        void AddActor(ActorDto actorDto);
         void RemoveActor(int ActorId);
         void EditActor(string actorName, string actorInfo, int actorId);
     }

@@ -1,8 +1,8 @@
 ﻿using System;
 using DataInterfaces;
-namespace DAL.Dto
+namespace DataInterfaces
 {
-    public class ReviewDto : IReviewDto
+    public class ReviewDto 
     {
         public int ReviewId { get; set; }
         public string ReviewComment { get; set; }

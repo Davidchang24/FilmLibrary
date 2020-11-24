@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DAL.Dto
+namespace DataInterfaces
 {
-    public class ActorDto : IActorDto
+    public class ActorDto
     {
         public int ActorId { get; set; }
         public string ActorName { get; set; }

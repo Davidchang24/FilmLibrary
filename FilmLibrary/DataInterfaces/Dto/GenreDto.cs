@@ -1,9 +1,8 @@
-﻿
-using DataInterfaces;
+﻿using DataInterfaces;
 
-namespace DAL.Dto
+namespace DataInterfaces
 {
-    public class GenreDto : IGenreDto
+    public class GenreDto 
     {
         public int GenreId { get; set; }
         public string GenreTitle { get; set; }

@@ -1,5 +1,4 @@
 ﻿using DataInterfaces;
-using DAL.Dto;
 using DAL.Context;
 
 namespace DataFactory
@@ -11,12 +10,12 @@ namespace DataFactory
             return new FilmContext();
         }
 
-        public static IFilmDto GetFilmDto()
+        public static FilmDto GetFilmDto()
         {
             return new FilmDto();
         }
 
-        public static IAccountDto GetAccountDto()
+        public static AccountDto GetAccountDto()
         {
             return new AccountDto();
         }
@@ -26,7 +25,7 @@ namespace DataFactory
             return new AccountContext();
         }
 
-        public static IActorDto GetActorDto()
+        public static ActorDto GetActorDto()
         {
             return new ActorDto();
         }
@@ -40,7 +39,7 @@ namespace DataFactory
             return new GenreContext();
         }
 
-        public static IGenreDto GetGenreDto()
+        public static GenreDto GetGenreDto()
         {
             return new GenreDto();
         }
@@ -50,7 +49,7 @@ namespace DataFactory
             return new ReviewContext();
         }
 
-        public static IReviewDto GetReviewDto()
+        public static ReviewDto GetReviewDto()
         {
             return new ReviewDto();
         } 

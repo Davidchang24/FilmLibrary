@@ -1,8 +1,8 @@
 ﻿using DataInterfaces;
 
-namespace DAL.Dto
+namespace DataInterfaces
 {
-    public class FilmDto : IFilmDto
+    public class FilmDto 
     {
         public int FilmId { get; set; }
         public string FilmName { get; set; }

@@ -23,3 +23,12 @@ C:/Users/davidchang/Documents/Github/FilmLibrary/FilmLibrary/LogicInterfaces/obj
 /Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/obj/Debug/netcoreapp3.1/LogicInterfaces.dll
 /Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/obj/Debug/netcoreapp3.1/LogicInterfaces.pdb
 /Users/davidchang/Github/FilmLibrary/FilmLibrary/LogicInterfaces/obj/Debug/netcoreapp3.1/LogicInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\LogicInterfaces\bin\Debug\netcoreapp3.1\LogicInterfaces.deps.json
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\LogicInterfaces\bin\Debug\netcoreapp3.1\LogicInterfaces.dll
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\LogicInterfaces\bin\Debug\netcoreapp3.1\LogicInterfaces.pdb
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\LogicInterfaces\obj\Debug\netcoreapp3.1\LogicInterfaces.csprojAssemblyReference.cache
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\LogicInterfaces\obj\Debug\netcoreapp3.1\LogicInterfaces.AssemblyInfoInputs.cache
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\LogicInterfaces\obj\Debug\netcoreapp3.1\LogicInterfaces.AssemblyInfo.cs
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\LogicInterfaces\obj\Debug\netcoreapp3.1\LogicInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\LogicInterfaces\obj\Debug\netcoreapp3.1\LogicInterfaces.dll
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\LogicInterfaces\obj\Debug\netcoreapp3.1\LogicInterfaces.pdb

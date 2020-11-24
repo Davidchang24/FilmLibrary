@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using DataInterfaces;
-using DAL.Dto;
 using MySql.Data.MySqlClient;
 
 namespace DAL.Context
 {
     public class GenreContext : IGenreContext
     {
-        public List<IGenreDto> GetGenres()
+        public List<GenreDto> GetGenres()
         {
             string command = "SELECT * FROM genre";
-            List<IGenreDto> genres = new List<IGenreDto>();
+            List<GenreDto> genres = new List<GenreDto>();
 
             using (MySqlConnection connect = Connection.GetConnection())
             {
@@ -32,7 +31,7 @@ namespace DAL.Context
             return genres;
         }
 
-        public void AddGenre(IGenreDto genre)
+        public void AddGenre(GenreDto genre)
         {
             string command = "INSERT INTO `genre` (`genreId`, `genreName`, `GenreDesc`) VALUES ({0}, '{1}' ,{2}');";
 

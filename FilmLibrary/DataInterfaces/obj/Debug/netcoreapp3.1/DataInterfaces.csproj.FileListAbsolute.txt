@@ -12,3 +12,12 @@ C:/Users/davidchang/Documents/Github/FilmLibrary/FilmLibrary/DataInterfaces/obj/
 /Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/obj/Debug/netcoreapp3.1/DataInterfaces.dll
 /Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/obj/Debug/netcoreapp3.1/DataInterfaces.pdb
 /Users/davidchang/Github/FilmLibrary/FilmLibrary/DataInterfaces/obj/Debug/netcoreapp3.1/DataInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\bin\Debug\netcoreapp3.1\DataInterfaces.deps.json
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\bin\Debug\netcoreapp3.1\DataInterfaces.dll
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\bin\Debug\netcoreapp3.1\DataInterfaces.pdb
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\obj\Debug\netcoreapp3.1\DataInterfaces.csprojAssemblyReference.cache
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\obj\Debug\netcoreapp3.1\DataInterfaces.AssemblyInfoInputs.cache
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\obj\Debug\netcoreapp3.1\DataInterfaces.AssemblyInfo.cs
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\obj\Debug\netcoreapp3.1\DataInterfaces.csproj.CoreCompileInputs.cache
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\obj\Debug\netcoreapp3.1\DataInterfaces.dll
+C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\DataInterfaces\obj\Debug\netcoreapp3.1\DataInterfaces.pdb

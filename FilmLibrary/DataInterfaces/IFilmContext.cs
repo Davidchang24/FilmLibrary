@@ -6,8 +6,8 @@ namespace DataInterfaces
 {
     public interface IFilmContext
     {
-        List<IFilmDto> GetFilms();
-        void AddFilm(IFilmDto film);
+        List<FilmDto> GetFilms();
+        void AddFilm(FilmDto film);
         void RemoveFilm(int filmId);
         void EditFilm(string filmName, string filmInformation, string filmReleaseDate, int filmId);
     }

@@ -15,7 +15,7 @@ namespace Logic
         {
             IFilmContext db = DataFactory.DataFactory.GetFilmContext();
             films = new List<IFilm>();
-            List<IFilmDto> filmDtos = db.GetFilms();
+            List<FilmDto> filmDtos = db.GetFilms();
             foreach (var film in filmDtos)
             {
                 films.Add(new Film()
@@ -31,7 +31,7 @@ namespace Logic
         public void AddFilm(IFilm film)
         {
             IFilmContext db = DataFactory.DataFactory.GetFilmContext();
-            IFilmDto filmDto = DataFactory.DataFactory.GetFilmDto();
+            FilmDto filmDto = DataFactory.DataFactory.GetFilmDto();
 
             filmDto.FilmId = film.FilmId;
             filmDto.FilmName = film.FilmName;

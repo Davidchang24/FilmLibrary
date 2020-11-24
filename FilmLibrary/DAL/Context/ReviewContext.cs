@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using DataInterfaces;
-using DAL.Dto;
 using MySql.Data.MySqlClient;
 
 namespace DAL.Context
 {
     public class ReviewContext : IReviewContext
     {
-        public List<IReviewDto> GetReviews()
+        public List<ReviewDto> GetReviews()
         {
             string command = "SELECT * FROM review";
-            List<IReviewDto> reviews = new List<IReviewDto>();
+            List<ReviewDto> reviews = new List<ReviewDto>();
             using (MySqlConnection connect = Connection.GetConnection())
             {
                 connect.Open();
@@ -25,14 +24,13 @@ namespace DAL.Context
                         ReviewId = Convert.ToInt32(reader["reviewId"]),
                         ReviewComment = reader["reviewComment"].ToString(),
                         ReviewStars = Convert.ToInt32(reader["reviewStars"])
-
                     });
                 }
             }
             return reviews;
         }
 
-        public void AddReview(IReviewDto review)
+        public void AddReview(ReviewDto review)
         {
             string command = "INSERT INTO `review` (`reviewId`, `reviewComment`, `reviewStars`) VALUES ({0}, '{1}' ,{2});";
 

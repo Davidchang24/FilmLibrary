@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using DataInterfaces;
-using DAL.Dto;
 using MySql.Data.MySqlClient;
 
 namespace DAL.Context
 {
     public class AccountContext : IAccountContext
     {
-        public List<IAccountDto> GetAccounts()
+        public List<AccountDto> GetAccounts()
         {
             string command = "SELECT * FROM account";
-            List<IAccountDto> accounts = new List<IAccountDto>();
+            List<AccountDto> accounts = new List<AccountDto>();
             using (MySqlConnection connect = Connection.GetConnection())
             {
                 connect.Open();

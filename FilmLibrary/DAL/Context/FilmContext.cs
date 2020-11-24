@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using DataInterfaces;
-using DAL.Dto;
 using MySql.Data.MySqlClient;
 
 namespace DAL.Context
 {   
     public class FilmContext : IFilmContext
     {
-        public List<IFilmDto> GetFilms()
+        public List<FilmDto> GetFilms()
         {
             string command = "SELECT * FROM film";
-            List<IFilmDto> films = new List<IFilmDto>();
+            List<FilmDto> films = new List<FilmDto>();
             using (MySqlConnection connect = Connection.GetConnection())
             {
                 connect.Open();
@@ -31,7 +30,7 @@ namespace DAL.Context
             return films;
         }
 
-        public void AddFilm(IFilmDto film)
+        public void AddFilm(FilmDto film)
         {
             string command = "INSERT INTO `film` (`filmId`, `filmName`, `filmInformation`, `filmReleaseDate`) VALUES ({0}, '{1}' ,'{2}', '{3}');";
 

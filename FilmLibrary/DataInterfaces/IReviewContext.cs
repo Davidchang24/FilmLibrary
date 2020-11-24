@@ -6,8 +6,8 @@ namespace DataInterfaces
 {
     public interface IReviewContext
     {
-        List<IReviewDto> GetReviews();
-        void AddReview(IReviewDto review);
+        List<ReviewDto> GetReviews();
+        void AddReview(ReviewDto review);
         void RemoveReview(int reviewId);
     }
 }

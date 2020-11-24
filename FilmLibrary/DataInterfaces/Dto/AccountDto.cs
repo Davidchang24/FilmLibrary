@@ -1,8 +1,9 @@
 ﻿using System;
 using DataInterfaces;
-namespace DAL.Dto
+
+namespace DataInterfaces
 {
-    public class AccountDto : IAccountDto
+    public class AccountDto 
     {
         public int accountId { get; set; }
         public string accountEmail { get; set; }

@@ -29,7 +29,7 @@ namespace Logic
         public void AddActor(IActor actor)
         {
             IActorContext db = DataFactory.DataFactory.GetActorContext();
-            IActorDto actorDto = DataFactory.DataFactory.GetActorDto();
+            ActorDto actorDto = DataFactory.DataFactory.GetActorDto();
 
             actorDto.ActorId = actor.ActorId;
             actorDto.ActorName = actor.ActorName;

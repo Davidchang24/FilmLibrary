@@ -5,6 +5,6 @@ namespace DataInterfaces
 {
     public interface IAccountContext
     {
-        List<IAccountDto> GetAccounts();
+        List<AccountDto> GetAccounts();
     }
 }

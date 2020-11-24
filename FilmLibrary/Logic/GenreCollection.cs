@@ -15,7 +15,7 @@ namespace Logic
         {
             IGenreContext db = DataFactory.DataFactory.GetGenreContext();
             genres = new List<IGenre>();
-            List<IGenreDto> genreDtos = db.GetGenres();
+            List<GenreDto> genreDtos = db.GetGenres();
             foreach (var genre in genreDtos)
             {
                 genres.Add(new Genre()
@@ -29,7 +29,7 @@ namespace Logic
         public void AddGenre(IGenre genre)
         {
             IGenreContext db = DataFactory.DataFactory.GetGenreContext();
-            IGenreDto genreDto = DataFactory.DataFactory.GetGenreDto();
+            GenreDto genreDto = DataFactory.DataFactory.GetGenreDto();
             genreDto.GenreId = genre.GenreId;
             genreDto.GenreTitle = genre.GenreTitle;
             genreDto.GenreDesc = genre.GenreDesc;

@@ -13,7 +13,7 @@ namespace Logic
         {
             IReviewContext db = DataFactory.DataFactory.GetReviewContext();
             reviews = new List<IReview>();
-            List<IReviewDto> reviewDtos = db.GetReviews();
+            List<ReviewDto> reviewDtos = db.GetReviews();
             foreach (var review in reviewDtos)
             {
                 reviews.Add(new Review()
@@ -28,7 +28,7 @@ namespace Logic
         public void AddReview(IReview review)
         {
             IReviewContext db = DataFactory.DataFactory.GetReviewContext();
-            IReviewDto reviewDto = DataFactory.DataFactory.GetReviewDto();
+            ReviewDto reviewDto = DataFactory.DataFactory.GetReviewDto();
 
             reviewDto.ReviewId = review.ReviewId;
             reviewDto.ReviewComment = review.ReviewComment;

@@ -4,16 +4,15 @@ using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using DAL.Dto;
 
 namespace DAL.Context   
 {
     public class ActorContext : IActorContext
     {
-        public List<IActorDto> GetActors()
+        public List<ActorDto> GetActors()
         {
             string command = "SELECT * FROM actors";
-            List<IActorDto> actors = new List<IActorDto>();
+            List<ActorDto> actors = new List<ActorDto>();
             using (MySqlConnection connect = Connection.GetConnection())
             {
 
@@ -33,7 +32,7 @@ namespace DAL.Context
             }
             return actors;
         }
-        public void AddActor(IActorDto actorDto)
+        public void AddActor(ActorDto actorDto)
         {
             string command = "INSERT INTO `actor` (`actorId`, `actorName`, `actorInfo`) VALUES ({0}, '{1]', '{2}');";   
             using (MySqlConnection connect = Connection.GetConnection())
