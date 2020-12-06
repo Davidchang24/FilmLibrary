@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using LogicInterfaces;
 
 namespace Logic
 {
-    class Actor : IActor
+    class Actor 
     {
         public int ActorId { get; set; }
         public string ActorName { get; set; }

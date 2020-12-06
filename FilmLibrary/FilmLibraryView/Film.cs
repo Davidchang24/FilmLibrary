@@ -1,17 +1,16 @@
 ﻿using System;
 using Logic;
-using LogicInterfaces;
 
 namespace ViewTest
 {
     public class Film
     {
         public Film()
-        { 
-            IFilmCollection filmCollection = LogicFactory.LogicFactory.GetFilmCollection();
-            foreach (var films in filmCollection.GetFilms())
+        {
+            FilmCollection filmCollection = new FilmCollection();
+            foreach (var film in filmCollection.GetFilmByDateNewToOld())
             {
-                Console.WriteLine(films.FilmName + ": " + films.FilmInformation + " Released in:" + films.FilmReleaseDate);
+                Console.WriteLine(film.FilmName + film.FilmInformation + film.FilmReleaseDate);
             }
         }
     }

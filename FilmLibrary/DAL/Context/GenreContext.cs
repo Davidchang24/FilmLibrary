@@ -23,7 +23,7 @@ namespace DAL.Context
                     genres.Add(new GenreDto()
                     {
                         GenreId = Convert.ToInt32(reader["genreId"]),
-                        GenreTitle = reader["genreName"].ToString(),
+                        GenreName = reader["genreName"].ToString(),
                         GenreDesc = reader["genreDesc"].ToString()
                     });
                 }
@@ -56,6 +56,29 @@ namespace DAL.Context
 
                 cmd.ExecuteNonQuery();
             }
+        }
+
+        public List<GenreDto> GetGenreByFilmId(int filmId)
+        {
+            string command = "SELECT genre.genreId, genreName FROM filmGenre JOIN genre ON genre.genreId = filmGenre.genreId WHERE filmId = {0}";
+            List<GenreDto> genreDtos = new List<GenreDto>();
+
+            using (MySqlConnection connect = Connection.GetConnection())
+            {
+                connect.Open();
+                MySqlCommand cmd = new MySqlCommand(string.Format(command, filmId), connect);
+
+                using MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    genreDtos.Add(new GenreDto()
+                    {
+                        GenreId = Convert.ToInt32(reader["genreId"]),
+                        GenreName = reader["genreName"].ToString(),
+                    });
+                }
+            }
+            return genreDtos;
         }
     }
 }

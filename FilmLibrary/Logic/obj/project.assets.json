@@ -1598,19 +1598,6 @@
         "runtime": {
           "bin/placeholder/DataInterfaces.dll": {}
         }
-      },
-      "LogicInterfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "MySql.Data": "8.0.22"
-        },
-        "compile": {
-          "bin/placeholder/LogicInterfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LogicInterfaces.dll": {}
-        }
       }
     }
   },
@@ -5662,18 +5649,12 @@
       "type": "project",
       "path": "../DataInterfaces/DataInterfaces.csproj",
       "msbuildProject": "../DataInterfaces/DataInterfaces.csproj"
-    },
-    "LogicInterfaces/1.0.0": {
-      "type": "project",
-      "path": "../LogicInterfaces/LogicInterfaces.csproj",
-      "msbuildProject": "../LogicInterfaces/LogicInterfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "DataFactory >= 1.0.0",
       "DataInterfaces >= 1.0.0",
-      "LogicInterfaces >= 1.0.0",
       "MySql.Data >= 8.0.22"
     ]
   },
@@ -5709,9 +5690,6 @@
             },
             "C:\\Users\\david\\Documents\\Github\\FilmLibrary\\FilmLibrary\\DataInterfaces\\DataInterfaces.csproj": {
               "projectPath": "C:\\Users\\david\\Documents\\Github\\FilmLibrary\\FilmLibrary\\DataInterfaces\\DataInterfaces.csproj"
-            },
-            "C:\\Users\\david\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
-              "projectPath": "C:\\Users\\david\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
             }
           }
         }

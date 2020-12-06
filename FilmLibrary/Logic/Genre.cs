@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using LogicInterfaces;
 using DataInterfaces;
 
 namespace Logic
 {
-    public class Genre : IGenre
+    public class Genre 
     {
         private IGenreContext db;
         public int GenreId { get; set; }

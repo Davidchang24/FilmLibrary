@@ -1605,7 +1605,6 @@
         "dependencies": {
           "DataFactory": "1.0.0",
           "DataInterfaces": "1.0.0",
-          "LogicInterfaces": "1.0.0",
           "MySql.Data": "8.0.22"
         },
         "compile": {
@@ -1613,34 +1612,6 @@
         },
         "runtime": {
           "bin/placeholder/Logic.dll": {}
-        }
-      },
-      "LogicFactory/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Logic": "1.0.0",
-          "LogicInterfaces": "1.0.0",
-          "MySql.Data": "8.0.22"
-        },
-        "compile": {
-          "bin/placeholder/LogicFactory.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LogicFactory.dll": {}
-        }
-      },
-      "LogicInterfaces/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "MySql.Data": "8.0.22"
-        },
-        "compile": {
-          "bin/placeholder/LogicInterfaces.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LogicInterfaces.dll": {}
         }
       }
     }
@@ -5698,23 +5669,11 @@
       "type": "project",
       "path": "../Logic/Logic.csproj",
       "msbuildProject": "../Logic/Logic.csproj"
-    },
-    "LogicFactory/1.0.0": {
-      "type": "project",
-      "path": "../LogicFactory/LogicFactory.csproj",
-      "msbuildProject": "../LogicFactory/LogicFactory.csproj"
-    },
-    "LogicInterfaces/1.0.0": {
-      "type": "project",
-      "path": "../LogicInterfaces/LogicInterfaces.csproj",
-      "msbuildProject": "../LogicInterfaces/LogicInterfaces.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Logic >= 1.0.0",
-      "LogicFactory >= 1.0.0",
-      "LogicInterfaces >= 1.0.0",
       "MySql.Data >= 8.0.22"
     ]
   },
@@ -5745,12 +5704,6 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\david\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj": {
-              "projectPath": "C:\\Users\\david\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicFactory\\LogicFactory.csproj"
-            },
-            "C:\\Users\\david\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj": {
-              "projectPath": "C:\\Users\\david\\Documents\\Github\\FilmLibrary\\FilmLibrary\\LogicInterfaces\\LogicInterfaces.csproj"
-            },
             "C:\\Users\\david\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj": {
               "projectPath": "C:\\Users\\david\\Documents\\Github\\FilmLibrary\\FilmLibrary\\Logic\\Logic.csproj"
             }

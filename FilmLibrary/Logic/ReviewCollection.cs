@@ -1,22 +1,21 @@
 ﻿using System;
-using LogicInterfaces;
 using DataFactory;
 using DataInterfaces;
 using System.Collections.Generic;
 namespace Logic
 {
-    public class ReviewCollection : IReviewCollection
+    public class ReviewCollection 
     {
-        private List<IReview> reviews;
+        private List<Review> _reviews;
 
         public ReviewCollection()
         {
             IReviewContext db = DataFactory.DataFactory.GetReviewContext();
-            reviews = new List<IReview>();
+            _reviews = new List<Review>();
             List<ReviewDto> reviewDtos = db.GetReviews();
             foreach (var review in reviewDtos)
             {
-                reviews.Add(new Review()
+                _reviews.Add(new Review()
                 {
                     ReviewId = review.ReviewId,
                     ReviewComment = review.ReviewComment,
@@ -25,7 +24,7 @@ namespace Logic
             }
         }
 
-        public void AddReview(IReview review)
+        public void AddReview(Review review)
         {
             IReviewContext db = DataFactory.DataFactory.GetReviewContext();
             ReviewDto reviewDto = DataFactory.DataFactory.GetReviewDto();
@@ -48,9 +47,9 @@ namespace Logic
 
         }
 
-        public IReadOnlyList<IReview> GetReviews()
+        public IReadOnlyList<Review> GetReviews()
         {
-            return reviews;
+            return _reviews;
         }
     }
 }

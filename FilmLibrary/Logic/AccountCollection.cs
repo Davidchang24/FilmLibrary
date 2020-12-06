@@ -1,23 +1,22 @@
 ﻿using DataInterfaces;
 using DataFactory;
-using LogicInterfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Logic
 {
-    public class AccountCollection : IAccountCollection
+    public class AccountCollection 
     {
-        private List<IAccount> accounts;
+        private List<Account> _accounts;
 
-        public void RegisterAccount(IAccount account)
+        public void RegisterAccount(Account account)
         {
 
         }
-        public IReadOnlyList<IAccount> GetAccounts()
+        public IReadOnlyList<Account> GetAccounts()
         {
-            return accounts;
+            return _accounts;
         }
     }
 }

@@ -1,23 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using LogicInterfaces;
 using DataInterfaces;
 using DataFactory;
 
 namespace Logic
 {
-    class ActorCollection : IActorCollection
+    class ActorCollection 
     {
-        private List<IActor> actors;
+        private List<Actor> _actors;
 
         public ActorCollection()
         {
             IActorContext db = DataFactory.DataFactory.GetActorContext();
-            actors = new List<IActor>();
+            _actors = new List<Actor>();
             foreach(var actor in db.GetActors())
             {
-                actors.Add(new Actor()
+                _actors.Add(new Actor()
                 {
                     ActorId = actor.ActorId,
                     ActorName = actor.ActorName,
@@ -26,7 +25,7 @@ namespace Logic
             }
         }
 
-        public void AddActor(IActor actor)
+        public void AddActor(Actor actor)
         {
             IActorContext db = DataFactory.DataFactory.GetActorContext();
             ActorDto actorDto = DataFactory.DataFactory.GetActorDto();
@@ -45,9 +44,9 @@ namespace Logic
             db.RemoveActor(actorId);
         }
 
-        public IReadOnlyList<IActor> GetActors()
+        public IReadOnlyList<Actor> GetActors()
         {
-            return actors;
+            return _actors;
         }
     }   
 }

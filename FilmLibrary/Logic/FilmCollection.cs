@@ -3,22 +3,21 @@ using System.Collections.Generic;
 using System.Text;
 using DataInterfaces;
 using DataFactory;
-using LogicInterfaces;
 
 namespace Logic
 {
-    public class FilmCollection : IFilmCollection
+    public class FilmCollection 
     { 
-        private List<IFilm> films;
+        private List<Film> _films;
 
         public FilmCollection()
         {
             IFilmContext db = DataFactory.DataFactory.GetFilmContext();
-            films = new List<IFilm>();
+            _films = new List<Film>();
             List<FilmDto> filmDtos = db.GetFilms();
             foreach (var film in filmDtos)
             {
-                films.Add(new Film()
+                _films.Add(new Film()
                 {
                     FilmId = film.FilmId,
                     FilmName = film.FilmName,
@@ -28,7 +27,7 @@ namespace Logic
             }
         }
 
-        public void AddFilm(IFilm film)
+        public void AddFilm(Film film)
         {
             IFilmContext db = DataFactory.DataFactory.GetFilmContext();
             FilmDto filmDto = DataFactory.DataFactory.GetFilmDto();
@@ -47,15 +46,26 @@ namespace Logic
             db.RemoveFilm(filmId);
         }
 
-        // TODO Should this function be in FilmCollection or just in Film
-        public void EditFilm()
+        public List<Film> GetFilmByDateNewToOld()
         {
-
+            IFilmContext db = DataFactory.DataFactory.GetFilmContext();
+            _films = new List<Film>();
+            List<FilmDto> filmDtos = db.GetFilmsByDateNewToOld();
+            foreach (var film in filmDtos)
+            {
+                _films.Add(new Film()
+                {
+                    FilmId = film.FilmId,
+                    FilmName = film.FilmName,
+                    FilmInformation = film.FilmInformation,
+                    FilmReleaseDate = film.FilmReleaseDate,
+                });
+            }
+            return _films;
         }
-
-        public IReadOnlyList<IFilm> GetFilms()
+        public IReadOnlyList<Film> GetFilms()
         {
-            return films;
+            return _films;
         }
     }
 }

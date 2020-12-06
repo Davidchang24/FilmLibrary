@@ -7,6 +7,7 @@ namespace DataInterfaces
     {
         void AddGenre(GenreDto genre);
         void RemoveGenre(int genreId);
+        List<GenreDto> GetGenreByFilmId(int filmId);
         List<GenreDto> GetGenres();
     }
 }

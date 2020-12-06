@@ -10,7 +10,6 @@
         "dependencies": {
           "DataFactory": "1.0.0",
           "DataInterfaces": "1.0.0",
-          "LogicInterfaces": "1.0.0",
           "MySql.Data": "8.0.22"
         },
         "runtime": {
@@ -1054,14 +1053,6 @@
         "runtime": {
           "DataInterfaces.dll": {}
         }
-      },
-      "LogicInterfaces/1.0.0": {
-        "dependencies": {
-          "MySql.Data": "8.0.22"
-        },
-        "runtime": {
-          "LogicInterfaces.dll": {}
-        }
       }
     }
   },
@@ -1698,11 +1689,6 @@
       "sha512": ""
     },
     "DataInterfaces/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "LogicInterfaces/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

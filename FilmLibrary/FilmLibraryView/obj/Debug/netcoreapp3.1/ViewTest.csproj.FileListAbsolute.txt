@@ -117,10 +117,6 @@ C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debu
 C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debug\netcoreapp3.1\DataFactory.dll
 C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debug\netcoreapp3.1\DataInterfaces.dll
 C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debug\netcoreapp3.1\Logic.dll
-C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debug\netcoreapp3.1\LogicFactory.dll
-C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debug\netcoreapp3.1\LogicInterfaces.dll
-C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debug\netcoreapp3.1\LogicFactory.pdb
-C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debug\netcoreapp3.1\LogicInterfaces.pdb
 C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debug\netcoreapp3.1\Logic.pdb
 C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debug\netcoreapp3.1\DAL.pdb
 C:\Users\david\Documents\Github\FilmLibrary\FilmLibrary\FilmLibraryView\bin\Debug\netcoreapp3.1\DataFactory.pdb

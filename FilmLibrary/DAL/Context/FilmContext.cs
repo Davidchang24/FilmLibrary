@@ -23,7 +23,8 @@ namespace DAL.Context
                     {
                         FilmId = Convert.ToInt32(reader["filmId"]),
                         FilmName = reader["filmName"].ToString(),
-                        FilmInformation = reader["filmInformation"].ToString()
+                        FilmInformation = reader["filmInformation"].ToString(),
+                        FilmReleaseDate = Convert.ToDateTime(reader["filmReleaseDate"])
                     }); 
                 }
             }
@@ -38,7 +39,7 @@ namespace DAL.Context
             {
                 connect.Open();
                 MySqlCommand cmd = new MySqlCommand(string.Format(command, film.FilmId, film.FilmName,film.FilmInformation,
-                                                                  film.FilmReleaseDate), connect);
+                                                                  film.FilmReleaseDate.ToString("yyyy-MM-dd")), connect);
 
                 cmd.ExecuteNonQuery();
             }
@@ -57,17 +58,46 @@ namespace DAL.Context
             }
         }
 
-        public void EditFilm(string filmName, string filmInformation, string filmReleaseDate, int filmId)
+        public void EditFilm(string filmName, string filmInformation, DateTime filmReleaseDate, int filmId)
         {
             string command = "UPDATE film SET filmName='{0}', filmInformation='{1}', filmReleaseDate='{2}' WHERE filmId='{3}';";
             
             using (MySqlConnection connect = Connection.GetConnection())
             {
                 connect.Open();
-                MySqlCommand cmd = new MySqlCommand(string.Format(command, filmName, filmInformation, filmReleaseDate, filmId), connect);
+                MySqlCommand cmd = new MySqlCommand(string.Format(command, filmName, filmInformation, filmReleaseDate.ToString("yyyy-MM-dd"), filmId), connect);
 
                 cmd.ExecuteNonQuery();
             }
+        }
+
+        public List<FilmDto> GetFilmsByDateNewToOld()
+        {
+            string command = "SELECT * FROM film ORDER BY filmReleaseDate DESC";
+            List<FilmDto> films = new List<FilmDto>();
+            using (MySqlConnection connect = Connection.GetConnection())
+            {
+                connect.Open();
+                MySqlCommand cmd = new MySqlCommand(command, connect);
+
+                using MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    films.Add(new FilmDto()
+                    {
+                        FilmId = Convert.ToInt32(reader["filmId"]),
+                        FilmName = reader["filmName"].ToString(),
+                        FilmInformation = reader["filmInformation"].ToString(),
+                        FilmReleaseDate = Convert.ToDateTime(reader["filmReleaseDate"])
+                    });
+                }
+            }
+            return films;
+        }
+
+        public void GetFilmByDate()
+        {
+
         }
     }
 }

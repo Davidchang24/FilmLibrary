@@ -1,10 +1,9 @@
-﻿using LogicInterfaces;
-using DataFactory;
+﻿using DataFactory;
 using DataInterfaces;
 
 namespace Logic
 {
-    public class Account : IAccount
+    public class Account 
     {
         public int accountId { get; set; }
         public string accountEmail { get; set; }
